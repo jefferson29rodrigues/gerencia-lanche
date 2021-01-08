@@ -21,6 +21,16 @@
         </style>
     </head>
     <body class="antialiased">
-        <h1>Hello World Gerencia Lanche!</h1>
+
+        <div>
+            <h1>Hello World Gerencia Lanche!</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/produtos">produtos</a></li>
+                <li><a href="/cadastrar">cadastrar</a></li>
+                <li><a href="/login">login</a></li>
+            </ul>
+        </div>
+    
     </body>
 </html>
