@@ -22,15 +22,22 @@
 
             .header {
                 display: flex;
+                justify-content: space-between;
+                
             }
 
             .header h1 {
 
             }
 
-            .header #search {
+            .header .search {
+                margin-top: 30px;
+            }
+
+            .header .search input {
                 border: 1px solid #aaa;
-                
+                height: 25px;
+                width: 300px;
             }
 
         </style>
@@ -38,16 +45,24 @@
     <body class="antialiased">
 
         <div class="header">
-            <h1>Gerencia Lanche!</h1>
-
-            <input type="search" name="search" id="search">
-
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/produtos">produtos</a></li>
-                <li><a href="/cadastrar">cadastrar</a></li>
-                <li><a href="/login">login</a></li>
-            </ul>
+            
+            <div class="title-site">
+                <h1>Gerencia Lanche!</h1>
+            </div>
+            
+            <div class="search">
+                <input type="search" name="search" >
+            </div>
+            
+            <div class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/produtos">produtos</a></li>
+                    <li><a href="/cadastrar">cadastrar</a></li>
+                    <li><a href="/login">login</a></li>
+                </ul>
+            </div>
+        
         </div>
 
 
