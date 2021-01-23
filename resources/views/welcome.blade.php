@@ -23,11 +23,12 @@
             .header {
                 display: flex;
                 justify-content: space-between;
-                
+                background: #eee;
             }
 
             .header h1 {
                 font-size: 30px;
+                margin-left: 20px;
             }
 
             .header .search {
@@ -36,8 +37,11 @@
 
             .header .search input {
                 border: 1px solid #aaa;
-                height: 25px;
-                width: 300px;
+                height: 30px;
+                width: 450px;
+                border-radius: 15px;
+                font-size: 18px;
+                margin-left: 45px;
             }
 
             .menu ul {
@@ -46,7 +50,7 @@
 
             .menu ul li {
                 list-style: none;
-                margin-right: 10px;
+                margin-right: 20px;
                 margin-top: 15px;
             }
 
