@@ -27,7 +27,7 @@
             }
 
             .header h1 {
-
+                font-size: 30px;
             }
 
             .header .search {
@@ -38,6 +38,20 @@
                 border: 1px solid #aaa;
                 height: 25px;
                 width: 300px;
+            }
+
+            .menu ul {
+                display: flex;
+            }
+
+            .menu ul li {
+                list-style: none;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+
+            .menu ul li a {
+                color: #999;
             }
 
         </style>
