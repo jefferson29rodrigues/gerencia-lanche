@@ -15,15 +15,33 @@
         </style>
 
         <style>
+            
             body {
                 font-family: 'Nunito';
             }
+
+            .header {
+                display: flex;
+            }
+
+            .header h1 {
+
+            }
+
+            .header #search {
+                border: 1px solid #aaa;
+                
+            }
+
         </style>
     </head>
     <body class="antialiased">
 
-        <div>
-            <h1>Hello World Gerencia Lanche!</h1>
+        <div class="header">
+            <h1>Gerencia Lanche!</h1>
+
+            <input type="search" name="search" id="search">
+
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/produtos">produtos</a></li>
@@ -31,6 +49,8 @@
                 <li><a href="/login">login</a></li>
             </ul>
         </div>
+
+
     
     </body>
 </html>
